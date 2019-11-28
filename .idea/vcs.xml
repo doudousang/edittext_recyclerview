@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/GoHomeAudio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/baidusearch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mvp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recyclerview_banner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recyclerview_items" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recyclerview_items2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tablayout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tablayout-viewpage-recycleview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webview" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    >
+
+    <com.li.gohome.util.MyImageView
+        android:id="@+id/sales_title_left"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:id="@+id/sales_title_right"
+        android:layout_marginRight="3dp"
+        android:text="获得更多福利>"
+        android:textSize="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="8dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/sales_text_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#f2f2f2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

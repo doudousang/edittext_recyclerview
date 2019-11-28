@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="88dp"
+android:orientation="horizontal"
+android:layout_marginLeft="7dp"
+android:layout_marginRight="7dp"
+android:layout_marginTop="4dp"
+android:id="@+id/grid_item_layout">
+
+<RelativeLayout
+    android:id="@+id/main_layout"
+    android:layout_width="121dp"
+    android:layout_height="88dp"
+    >
+
+    <TextView
+        android:id="@+id/main_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="kkkk" />
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="121dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="1dp"
+    android:layout_height="88dp"
+    android:background="@android:color/white"/>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="88dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="jjj" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/item2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="hhh" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="1dp"
+    android:layout_height="88dp"
+    android:background="@android:color/white"/>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="88dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item3_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="jjj" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/item4_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="hhh" />
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>
